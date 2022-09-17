@@ -1,0 +1,4 @@
+/* Input Textbox Styles */
+#first-name, #last-name, #gender, #date, #phone, #email, #city, #country {
+    margin-bottom: 5px;
+}

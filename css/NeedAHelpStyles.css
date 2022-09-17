@@ -1,0 +1,8 @@
+/* Input Textbox Styles */
+#name, #email, #subject {
+    margin-bottom: 5px;
+}
+
+#message textarea {
+    resize: none;
+}

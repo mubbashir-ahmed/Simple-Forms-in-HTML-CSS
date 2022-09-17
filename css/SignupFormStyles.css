@@ -1,0 +1,27 @@
+/* Input Textbox Styles */
+#first-name, #last-name, #email, #password {
+    margin-bottom: 5px;
+}
+
+/* Login Link Styles */
+.login-link {
+    margin: 10px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.login-link label {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.login-link a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}

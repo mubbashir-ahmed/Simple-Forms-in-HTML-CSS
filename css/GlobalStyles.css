@@ -1,0 +1,131 @@
+/* Body Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--secondary-color);
+}
+
+/* Main Div */
+.main {
+    width: 500px;
+    height: auto;
+    background-color: var(--fg-color);
+    padding: 20px;
+}
+
+/* Main Div Alignment */
+.alignment {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* Heading Styles */
+.heading {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.heading span {
+    font-size: 35px;
+}
+
+/* List Styles */
+ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 10px 50px;
+}
+
+/* Input Textbox Styles */
+.textbox {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    background-image: none;
+    border: none;
+    color: var(--secondary-color);
+    letter-spacing: 2px;
+}
+
+.textbox:focus {
+    outline: 0;
+}
+
+.input-textboxes {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.input-border {
+    display: inline-block;
+    width: 0px;
+    height: 2px;
+    background: #FEC938;
+    position: relative;
+    top: -10px;
+    -webkit-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.5s;
+}
+
+.textbox:hover, .textbox:active, .textbox:focus {
+    outline: none;
+}
+
+.textbox:hover+.input-border, .textbox:active+.input-border,  .textbox:focus+.input-border {
+    width: 100%;
+}
+
+.textbox::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Buttons Styles */
+.button-block {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    column-gap: 10px;
+}
+
+.button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.button:hover, button:focus {
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+

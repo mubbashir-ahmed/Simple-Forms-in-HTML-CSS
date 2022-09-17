@@ -1,0 +1,61 @@
+/* Paragraph Styles */
+.paragraph label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.paragraph span {
+    margin: 10px 0;
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Input Textbox Styles */
+#name {
+    margin-bottom: 5px;
+}
+
+#message textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+/* Scale Feedback Styles */
+.scale-text {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.scale-alignment {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.scale {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    font-weight: bold;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.scale:hover, .scale:focus {
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
