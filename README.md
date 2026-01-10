@@ -2,6 +2,14 @@
 
 A collection of seven (7) beautifully designed, responsive forms built with pure HTML and CSS. This project demonstrates clean form design patterns and modern CSS styling techniques without any JavaScript dependencies.
 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
+## 🔗 Live Demo
+
+Check out the live version of the project here: [https://simple-forms-indol.vercel.app/](https://simple-forms-indol.vercel.app/)
+
 ## 📋 Features
 
 - **Pure HTML & CSS** - No JavaScript required
@@ -102,7 +110,7 @@ The project uses CSS variables defined in `css/Variables.css` for easy customiza
 
 ## 📝 License
 
-This project is open source and available for educational and commercial use.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
